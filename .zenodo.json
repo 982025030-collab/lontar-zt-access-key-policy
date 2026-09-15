@@ -1,0 +1,39 @@
+{
+  "title": "Evidence-Aware Risk-Bounded Access-Key Policy Selection for Zero-Trust Data Centers: Research Artifact",
+  "description": "Reproducible single-host laboratory artifact for evidence-aware access--key policy selection in LONTAR-ZT. It contains frozen protocol, split manifests, source snapshot, measured outcome logs, policy-selection locks, and analysis outputs for 16 tuning, 107 certification, and 100 untouched test blocks (9,366 measured requests). The artifact evaluates a finite family of permit lifetime and live-evidence deadline combinations. It does not validate multi-host, multi-device, cross-day, remote-attestation, production key-manager, or general operational reliability claims. Original code is MIT; synthetic measurements and original documentation are CC BY 4.0. Runtime secrets, vendor binaries, external traffic datasets, and formatted manuscript PDF are excluded.",
+  "creators": [
+    {
+      "name": "Boru, Meiton",
+      "affiliation": "Satya Wacana Christian University",
+      "orcid": "0000-0001-9059-3863"
+    },
+    {
+      "name": "Sembiring, Irwan",
+      "affiliation": "Satya Wacana Christian University",
+      "orcid": "0000-0002-6625-7533"
+    },
+    {
+      "name": "Sulistyo, Wiwin",
+      "affiliation": "Satya Wacana Christian University",
+      "orcid": "0000-0001-6193-9829"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "keywords": [
+    "zero trust",
+    "access control",
+    "key management",
+    "risk control",
+    "reproducibility",
+    "LONTAR-ZT"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/982025030-collab/lontar-zt-access-key-policy",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
