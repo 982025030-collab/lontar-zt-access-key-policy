@@ -1,6 +1,6 @@
 {
   "title": "Evidence-Aware Risk-Bounded Access-Key Policy Selection for Zero-Trust Data Centers: Research Artifact",
-  "description": "Versioned research artifact for evidence-aware access-key policy selection in LONTAR-ZT. Preserves the original frozen single-host study (16 tuning, 107 certification, 100 untouched test blocks; 9,366 requests) and adds a separate AWS staging supplement. The supplement retains 235 observations from 22/27 October, including failed recovery and rate limiting, and a separate 52-observation signed-permit/deadline run on 28 October 2026: 25 permit issues, 12 successful protected KMS operations, and 15 expected denials. Three process roles implement signed bound permits of at most 60 seconds, nonce-bound use-time evidence with a 500-ms retrieval deadline, atomic replay consumption, and post-query expiry checking. AWS uses KMS ECDSA and GenerateDataKey, unlike the local Ed25519/AES-GCM workload; the local risk certificate does not transfer. These are repeated-host staging observations, not independent-site, hardware-attested, or production evidence. New runtime journals, credentials, private keys, bearer tokens, live permits, and formatted manuscript PDF are excluded. Original code MIT; original documentation and measurements CC BY 4.0.",
+  "description": "Patch v1.1.1 fixes public-manifest selection for clean-extraction reanalysis. It reproduces the same retained results, passes 12 offline contract tests, and rejects a modified measurement file. Measurements and AWS runtime code are unchanged. Research artifact for evidence-aware access-key policy selection in LONTAR-ZT. Preserves the original frozen single-host study (16 tuning, 107 certification, 100 untouched test blocks; 9,366 requests) and adds a separate AWS staging supplement. The supplement retains 235 observations from 22/27 October, including failed recovery and rate limiting, and a separate 52-observation signed-permit/deadline run on 28 October 2026: 25 permit issues, 12 successful protected KMS operations, and 15 expected denials. Three process roles implement signed bound permits of at most 60 seconds, nonce-bound use-time evidence with a 500-ms retrieval deadline, atomic replay consumption, and post-query expiry checking. AWS uses KMS ECDSA and GenerateDataKey, unlike the local Ed25519/AES-GCM workload; the local risk certificate does not transfer. These are repeated-host staging observations, not independent-site, hardware-attested, or production evidence. New runtime journals, credentials, private keys, bearer tokens, live permits, and formatted manuscript PDF are excluded. Original code MIT; original documentation and measurements CC BY 4.0.",
   "creators": [
     {
       "name": "Boru, Meiton",
@@ -20,7 +20,7 @@
   ],
   "license": "MIT",
   "upload_type": "software",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "keywords": [
     "zero trust",
     "access control",

@@ -1,0 +1,10 @@
+{
+  "version": "1.1.1",
+  "archive_sha256": "d677db603e0b706f2025a940f7d0985f8756814fdfe89cbd9958d02f03c077da",
+  "clean_extraction_reanalysis_passed": true,
+  "results_identical_to_private_reanalysis": true,
+  "offline_contract_tests_passed": 12,
+  "tamper_rejected": true,
+  "negative_test_error": "Integrity failure",
+  "scope": "Offline reproduction only; no AWS rerun or altered observations."
+}
