@@ -4,6 +4,8 @@ Research artifact by Meiton Boru, Irwan Sembiring, and Wiwin Sulistyo, Faculty o
 
 This artifact accompanies *Evidence-Aware Risk-Bounded Access--Key Policy Selection for Zero-Trust Data Centers*. It implements a constrained selector over six complete access--key policies: permit lifetime (2 or 60 seconds), and either offline enforcement or online evidence revalidation with 0.1- or 0.5-second deadlines. It uses disjoint tuning (16 blocks), certification (107 blocks), and untouched test (100 blocks) splits. Together these contain 9,366 measured requests.
 
+Version 1.1.1 immutable archive: [Zenodo DOI 10.5281/zenodo.23724800](https://doi.org/10.5281/zenodo.23724800).
+
 Version 1.1.1 fixes public reanalysis: the analyzer verifies PUBLIC_SHA256.json when the intentionally excluded private per-run manifest is unavailable. Clean extraction reproduces all outcomes, all 12 offline contract tests pass, and a modified measurement file is rejected. Measurements and AWS runtime code are unchanged. Version 1.1.0 remains at [its historical DOI](https://doi.org/10.5281/zenodo.23723261); use the patch for executable public reanalysis.
 
 ## Version 1.1.1 AWS supplement
