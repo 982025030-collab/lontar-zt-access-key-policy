@@ -4,6 +4,8 @@ Research artifact by Meiton Boru, Irwan Sembiring, and Wiwin Sulistyo, Faculty o
 
 This artifact accompanies *Evidence-Aware Risk-Bounded Access--Key Policy Selection for Zero-Trust Data Centers*. It implements a constrained selector over six complete access--key policies: permit lifetime (2 or 60 seconds), and either offline enforcement or online evidence revalidation with 0.1- or 0.5-second deadlines. It uses disjoint tuning (16 blocks), certification (107 blocks), and untouched test (100 blocks) splits. Together these contain 9,366 measured requests.
 
+Immutable version 1.1.0 archive: [Zenodo DOI 10.5281/zenodo.23723261](https://doi.org/10.5281/zenodo.23723261). The Zenodo repository snapshot was downloaded and its nested AWS supplement verified byte-identical to the GitHub release asset.
+
 ## Version 1.1.0 AWS supplement
 
 The original `LONTAR_ZT_Access_Key_Research_Artifact_v1.0.0.zip` remains byte-identical. Its article source is historical. The new `LONTAR_AKP_AWS_Contract_Supplement_v1.1.0.zip` adds reviewed cloud source, selected byte-identical outcome/audit files, provenance, checksums, reanalysis, and the CRediT statement. It does not contain the revised manuscript PDF or claim to archive every historical October artifact.
