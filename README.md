@@ -1,4 +1,14 @@
-# LONTAR-ZT access--key policy selection: research artifact v1.1.1
+# LONTAR-ZT access-key research artifact v1.2.0
+
+Adds the separate `LONTAR_AKP_AWS_Robustness_Supplement_v1.2.0.zip`. The primary v1.0.0 ZIP and earlier v1.1.1 supplement remain byte-identical. This is a new execution campaign, not a changed primary test.
+
+The new supplement retains 539 HTTP responses and 180 boundary-use trials from project 501250588559/ap-southeast-2. All 191 successful KMS operations correlate with CloudTrail. One unexpected recovery 503 remains in the dataset. An actual unpublished guest posture change was still authorized using a 14.596-second-old signed observation: this is a source-freshness counterexample, not a claimed protection. See the supplement README for reanalysis, matched overhead, fail-closed behavior, fault mechanisms and limitations.
+
+Public clean-extraction numerical reanalysis passes; all 12 offline contract tests pass; tampered data are rejected. Retrospective comparison against the byte-identical primary archive verifies 53 protected files and finds equal outcomes for exact screening, empirical screening and fixed P60. Neither requests nor four sequential benchmark blocks establish independent host-days. No risk certificate is transferred to AWS. No hardware-attested, independent-site, settled-cost or production claim is made.
+
+The version-specific Zenodo DOI will be recorded after the automatic archive is minted. The historical DOI below identifies v1.1.1 only. The formatted revised manuscript is not part of this public artifact.
+
+# Earlier artifact v1.1.1 (retained unchanged)
 
 Research artifact by Meiton Boru, Irwan Sembiring, and Wiwin Sulistyo, Faculty of Information Technology, Satya Wacana Christian University, Salatiga, Indonesia.
 

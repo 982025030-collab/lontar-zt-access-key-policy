@@ -1,0 +1,12 @@
+{
+  "clean_extraction_numerical_reanalysis_equal": true,
+  "manifest_scope_only_difference": {
+    "private_verified_files": 33,
+    "public_verified_files": 27
+  },
+  "offline_contract_tests": 12,
+  "primary_protected_files_matched": 53,
+  "tampered_measurement_rejected": true,
+  "source": "fresh extraction of distributable archives",
+  "public_supplement_sha256": "7c0d711b22da8d1f667f415f808ba5af64cefcf360e9f78913d86c55dc00891a"
+}
