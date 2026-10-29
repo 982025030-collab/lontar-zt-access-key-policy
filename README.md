@@ -1,3 +1,11 @@
+# LONTAR-ZT access-key research artifact v1.3.0
+
+Adds a separate timing/instrumentation and server policy-lock amendment with 135 HTTP responses and 54 issue/use timing pairs on 29 October 2026. All 122 instrumented evidence queries retain numerical durations, including failed paths. Nine server-lock probes deny overrides before handler key attempt. Actual planned-versus-observed delays, cold-start outliers and all failures remain in the results. Reanalysis of all 180 v1.2.0 issue/use pairs corrects the interpretation of planned 50-ms profiles; the original measurements and archive remain unchanged.
+
+New supplement: `LONTAR_AKP_Timing_Amendment_v1.3.0.zip`. Clean-extraction standard-library reanalysis, 23 offline tests (boto3 with mocked AWS calls), and input-tamper rejection pass. All three Lambda code/environment configurations and state were restored; host stopped. One host-day supplies descriptive staging evidence only. The 28 handler-recorded KMS successes have no new CloudTrail capture and are not added to the earlier 191 correlated operations. The formatted article/report are not included.
+
+The new version's Zenodo DOI will be added after minting and verification. DOI 10.5281/zenodo.23734013 identifies the unchanged historical v1.2.0 snapshot, not this amendment. No primary test, old archive, or old release/tag is replaced.
+
 # LONTAR-ZT access-key research artifact v1.2.0
 
 Adds the separate `LONTAR_AKP_AWS_Robustness_Supplement_v1.2.0.zip`. The primary v1.0.0 ZIP and earlier v1.1.1 supplement remain byte-identical. This is a new execution campaign, not a changed primary test.

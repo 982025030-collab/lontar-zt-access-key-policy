@@ -1,0 +1,10 @@
+{
+  "clean_extraction_reanalysis": "passed",
+  "original_180_reanalysis": "passed",
+  "modified_input_rejected": true,
+  "http_counts": {
+    "200": 92,
+    "403": 20,
+    "503": 23
+  }
+}

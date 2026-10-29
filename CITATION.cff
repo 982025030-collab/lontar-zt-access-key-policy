@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite this versioned release and its linked Zenodo record."
 title: "Evidence-Aware Risk-Bounded Access-Key Policy Selection for Zero-Trust Data Centers: Research Artifact"
 type: software
-version: "1.2.0"
+version: "1.3.0"
 authors:
   - family-names: Boru
     given-names: Meiton
@@ -18,5 +18,4 @@ authors:
     affiliation: Satya Wacana Christian University
 license: MIT
 url: https://github.com/982025030-collab/lontar-zt-access-key-policy
-date-released: "2026-10-28"
-doi: "10.5281/zenodo.23734013"
+date-released: "2026-10-29"
