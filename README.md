@@ -6,7 +6,7 @@ The new supplement retains 539 HTTP responses and 180 boundary-use trials from p
 
 Public clean-extraction numerical reanalysis passes; all 12 offline contract tests pass; tampered data are rejected. Retrospective comparison against the byte-identical primary archive verifies 53 protected files and finds equal outcomes for exact screening, empirical screening and fixed P60. Neither requests nor four sequential benchmark blocks establish independent host-days. No risk certificate is transferred to AWS. No hardware-attested, independent-site, settled-cost or production claim is made.
 
-The version-specific Zenodo DOI will be recorded after the automatic archive is minted. The historical DOI below identifies v1.1.1 only. The formatted revised manuscript is not part of this public artifact.
+Version-specific archive: [Zenodo DOI 10.5281/zenodo.23734013](https://doi.org/10.5281/zenodo.23734013). The downloaded Zenodo archive contains a byte-identical v1.2.0 supplement and original primary ZIP. The historical DOI below identifies v1.1.1 only. The formatted revised manuscript is not part of this public artifact.
 
 # Earlier artifact v1.1.1 (retained unchanged)
 
