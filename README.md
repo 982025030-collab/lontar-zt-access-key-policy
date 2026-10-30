@@ -1,6 +1,6 @@
 # Metadata patch v1.3.1
 
-Corrects inherited `.zenodo.json` version/description from v1.3.0. The timing supplement and all measured data remain byte-identical. v1.3.0 Zenodo record 23804695 contains the correct v1.3.0 archive but inherited v1.2.0 descriptive metadata; use the verified v1.3.1 record once available.
+Corrects inherited `.zenodo.json` version/description from v1.3.0. The timing supplement and all measured data remain byte-identical. v1.3.0 Zenodo record 23804695 contains the correct v1.3.0 archive but inherited v1.2.0 descriptive metadata; use the v1.3.1 record [10.5281/zenodo.23804786](https://doi.org/10.5281/zenodo.23804786).
 
 # LONTAR-ZT access-key research artifact v1.3.0
 
@@ -8,7 +8,7 @@ Adds a separate timing/instrumentation and server policy-lock amendment with 135
 
 New supplement: `LONTAR_AKP_Timing_Amendment_v1.3.0.zip`. Clean-extraction standard-library reanalysis, 23 offline tests (boto3 with mocked AWS calls), and input-tamper rejection pass. All three Lambda code/environment configurations and state were restored; host stopped. One host-day supplies descriptive staging evidence only. The 28 handler-recorded KMS successes have no new CloudTrail capture and are not added to the earlier 191 correlated operations. The formatted article/report are not included.
 
-The new version's Zenodo DOI will be added after minting and verification. DOI 10.5281/zenodo.23734013 identifies the unchanged historical v1.2.0 snapshot, not this amendment. No primary test, old archive, or old release/tag is replaced.
+Metadata patch v1.3.1: [Zenodo DOI 10.5281/zenodo.23804786](https://doi.org/10.5281/zenodo.23804786). DOI 10.5281/zenodo.23734013 identifies the unchanged historical v1.2.0 snapshot, not this amendment. No primary test, old archive, or old release/tag is replaced.
 
 # LONTAR-ZT access-key research artifact v1.2.0
 
