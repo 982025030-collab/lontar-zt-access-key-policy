@@ -1,3 +1,7 @@
+# Metadata patch v1.3.1
+
+Corrects inherited `.zenodo.json` version/description from v1.3.0. The timing supplement and all measured data remain byte-identical. v1.3.0 Zenodo record 23804695 contains the correct v1.3.0 archive but inherited v1.2.0 descriptive metadata; use the verified v1.3.1 record once available.
+
 # LONTAR-ZT access-key research artifact v1.3.0
 
 Adds a separate timing/instrumentation and server policy-lock amendment with 135 HTTP responses and 54 issue/use timing pairs on 29 October 2026. All 122 instrumented evidence queries retain numerical durations, including failed paths. Nine server-lock probes deny overrides before handler key attempt. Actual planned-versus-observed delays, cold-start outliers and all failures remain in the results. Reanalysis of all 180 v1.2.0 issue/use pairs corrects the interpretation of planned 50-ms profiles; the original measurements and archive remain unchanged.

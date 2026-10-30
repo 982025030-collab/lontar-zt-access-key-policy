@@ -1,6 +1,6 @@
 {
   "title": "Evidence-Aware Risk-Bounded Access-Key Policy Selection for Zero-Trust Data Centers: Research Artifact",
-  "description": "Research artifact v1.2.0 preserves the byte-identical primary study and earlier AWS supplements, and adds a source-frozen one-host AWS robustness campaign on 28 October 2026 in project 501250588559/ap-southeast-2. The new campaign retains 539 HTTP responses, 180 boundary-use trials, 191 successful KMS operations correlated with CloudTrail, one unexpected post-DynamoDB-recovery 503, and a cached-source counterexample after an unpublished actual guest posture change. Matched route timing separates issuance, use, observed warm/cold state and controller pacing. Code/environment rollback and stopped host were verified. A retrospective primary comparator finds no outcome advantage over empirical screening or fixed P60; 53 primary files remain unchanged. Public clean-extraction reanalysis reproduces numerical results, 12 offline tests pass, and altered data are rejected. Requests and sequential benchmark blocks do not replace independent host-days. No new primary certificate, hardware-attestation, independent-site, settled-billing, or production claim. Credentials, private keys, tokens, live permits, private journals, rollback configurations and the formatted manuscript PDF are excluded. Code MIT; original measurements/documentation CC BY 4.0.",
+  "description": "Research artifact v1.3.1 corrects inherited archive metadata for the separate v1.3.0 timing amendment. Measurements and supplement bytes are unchanged. The 29 October 2026 project 501250588559/ap-southeast-2 campaign retains 135 HTTP responses and 54 timing pairs. All 122 evidence queries retain numerical monotonic durations, including 30 unsuccessful outcomes. Nine server policy-lock probes deny overrides. Three Lambda configurations and state were restored, host stopped. Reanalysis of all 180 v1.2.0 pairs distinguishes planned from observed age and preserves missing original durations. Clean-extraction reanalysis and 23 mocked offline tests pass; altered input rejected. The 28 handler-recorded KMS successes have no new CloudTrail capture. Frozen primary test and all older archives remain unchanged. No deployment certificate, hardware-attestation, independent-site or production claim. No credentials, keys, tokens, live permits or private configuration snapshots are distributed.",
   "creators": [
     {
       "name": "Boru, Meiton",
@@ -20,7 +20,7 @@
   ],
   "license": "MIT",
   "upload_type": "software",
-  "version": "1.2.0",
+  "version": "1.3.1",
   "keywords": [
     "zero trust",
     "access control",
